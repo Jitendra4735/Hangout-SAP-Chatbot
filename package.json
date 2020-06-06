@@ -1,0 +1,24 @@
+{
+  "name": "crmerpdemo",
+  "version": "1.0.0",
+  "description": "demo bot for crm and erp capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "botbuilder": "^4.9.2",
+    "botbuilder-ai": "^4.9.2",
+    "botbuilder-dialogs": "^4.9.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsforce": "^1.9.3",
+    "mssql": "^6.2.0",
+    "request": "^2.88.2",
+    "restify": "^8.5.1"
+  }
+}
